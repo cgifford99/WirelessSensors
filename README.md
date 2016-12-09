@@ -1,13 +1,12 @@
 # WirelessSensors
 Wireless Sensors Flex Friday project repo
+Heres a link to our Waffle.io management board: https://waffle.io/cgifford99/WirelessSensors/join
+
 ## Current Schedule
 - [x] Project Proposal  | September 9th-September 30th
-- [ ] Research          | September 30th-October 7th
-- [ ] RPi Zero Set-up   | September 30th-October 28th
-- [ ] 3D design         | October 28th-December 16th
-- [ ] PCB Design        | October 7th-November 25th
-- [ ] Web Development   | October 7th-December 16th
-- [ ] Testing/Debugging | December 16th-April 7th 2017
+- [x] Research          | September 30th-October 7th
+- [ ] Data pro design   | October 7th- December 23rd
+- [ ] Testing/Debugging | December 23rd-April 7th 2017
 - [ ] Finalize product  | March 3rd 2017-May 19th 2017
 - [ ] Presentation      | May 19th 2017-June 9th 2017
 
@@ -44,7 +43,7 @@ Currently there is no easy way to collect, store and share data from classroom s
 
 **Lewis Woodard**: Lewis is a Sophomore at Baxter Academy for Technology and Science who is a part of the Wireless Sensors project for the second year. He hopes to focus his efforts in the project towards hardware and enclosures, which will include PCB design and using SolidWorks to design enclosures, cases, and other devices to contain sensors. Last year Lewis joined after completing the Pentathlon and worked on a combination of hardware, enclosures and software. Since last year, Lewis has gained more experience in C++ programming, CAD and more. Lewis plans to use this knowledge to focus mainly on hardware, pcb and 3D design, assisting on programming and software when he is needed.
 
-**Connor Bell**: Connor is a Junior at Baxter Academy for Technology and Science. He is a new addition to the Wireless Sensors project. He has taken multiple classes based around electronics and computer programming, and is currently learning as much as he can to have enough knowledge to be successful on this projects. Connor has programmed multiple web-based and non-web based programs in various languages such as Python and Javascript, both of which are relevant to the progress of this project.
+**Connor Bell**: (NOTE: Connor is no longer involved with the project) Connor is a Junior at Baxter Academy for Technology and Science. He is a new addition to the Wireless Sensors project. He has taken multiple classes based around electronics and computer programming, and is currently learning as much as he can to have enough knowledge to be successful on this projects. Connor has programmed multiple web-based and non-web based programs in various languages such as Python and Javascript, both of which are relevant to the progress of this project.
 
 **Curtis**: 
 Curtis is a Sophomore at Baxter Academy for Technology and Science. He is also a new addition to the Wireless Sensors project. He has taken multiple classes based around electronics and computer programming. Curtis plans to concentrate on programming so that he be a productive member of the group.
