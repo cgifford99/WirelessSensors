@@ -1,6 +1,6 @@
 # WirelessSensors
 Wireless Sensors Flex Friday project repo
-Heres a link to our Waffle.io management board: https://waffle.io/cgifford99/WirelessSensors/join
+Here's a link to our Waffle.io management board: https://waffle.io/cgifford99/WirelessSensors/join
 
 ## Current Schedule
 - [x] Project Proposal  | September 9th-September 30th
