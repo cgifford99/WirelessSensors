@@ -24496,11 +24496,11 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <attribute name="VALUE" x="200.66" y="76.2" size="1.778" layer="96"/>
 </instance>
 <instance part="IC3" gate="P" x="5.08" y="22.86"/>
-<instance part="IC1" gate="P" x="63.5" y="162.56"/>
+<instance part="IC1" gate="P" x="66.04" y="162.56"/>
 <instance part="SUPPLY21" gate="G$1" x="5.08" y="33.02"/>
 <instance part="GND16" gate="1" x="7.62" y="12.7" rot="R90"/>
-<instance part="GND25" gate="1" x="66.04" y="152.4" rot="R90"/>
-<instance part="SUPPLY22" gate="G$1" x="63.5" y="172.72"/>
+<instance part="GND25" gate="1" x="66.04" y="149.86"/>
+<instance part="SUPPLY22" gate="G$1" x="66.04" y="172.72"/>
 <instance part="SUPPLY23" gate="G$1" x="289.56" y="68.58"/>
 <instance part="IC4" gate="G$1" x="236.22" y="-17.78"/>
 <instance part="GND26" gate="1" x="238.76" y="-45.72"/>
@@ -24656,7 +24656,7 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <segment>
 <pinref part="IC1" gate="P" pin="VDD"/>
 <pinref part="SUPPLY22" gate="G$1" pin="5V"/>
-<wire x1="63.5" y1="172.72" x2="63.5" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="172.72" x2="66.04" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="289.56" y1="63.5" x2="289.56" y2="66.04" width="0.1524" layer="91"/>
@@ -24909,7 +24909,7 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <segment>
 <pinref part="IC1" gate="P" pin="VSS"/>
 <pinref part="GND25" gate="1" pin="GND"/>
-<wire x1="63.5" y1="152.4" x2="63.5" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="152.4" x2="66.04" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R24" gate="G$1" pin="2"/>
@@ -25330,14 +25330,14 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 </net>
 <net name="CE" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="GP25"/>
-<wire x1="129.54" y1="45.72" x2="134.62" y2="45.72" width="0.1524" layer="91"/>
-<label x="132.08" y="45.72" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="M1" gate="G$1" pin="CE"/>
 <wire x1="287.02" y1="144.78" x2="281.94" y2="144.78" width="0.1524" layer="91"/>
 <label x="281.94" y="144.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="GP22"/>
+<wire x1="129.54" y1="53.34" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
+<label x="132.08" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -25849,8 +25849,6 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <approved hash="114,1,66.04,162.496,IC1,F,I,,,"/>
 <approved hash="104,1,63.5,154.94,IC1P,VSS,GND,,,"/>
 <approved hash="104,1,63.5,170.18,IC1P,VDD,5V,,,"/>
-<approved hash="104,1,5.08,170.18,IC3P,V+,5V,,,"/>
-<approved hash="104,1,5.08,154.94,IC3P,V-,GND,,,"/>
 <approved hash="104,1,119.38,170.18,U1,VDD,3.3V,,,"/>
 <approved hash="104,1,241.3,134.62,IC6,VCC,3.3V,,,"/>
 <approved hash="104,1,236.22,-40.64,IC4,GND1,GND,,,"/>
