@@ -4,7 +4,7 @@ Wireless Sensors Flex Friday project repo
 Here's a link to our Waffle.io management board: https://waffle.io/cgifford99/WirelessSensors/join
 
 ## Current Schedule
-- [x] Project Proposal  | September 9th-September 30th
+- [x] Project Proposal  | September 11th-September 30th
 - [x] Research          | September 30th-October 7th
 - [ ] Data pro design   | October 7th- December 23rd
 - [ ] Testing/Debugging | December 23rd-April 7th 2017
@@ -48,6 +48,8 @@ Currently there is no easy way to collect, store and share data from classroom s
 
 **Curtis**: 
 Curtis is a Sophomore at Baxter Academy for Technology and Science. He is also a new addition to the Wireless Sensors project. He has taken multiple classes based around electronics and computer programming. Curtis plans to concentrate on programming so that he be a productive member of the group.
+
+**Ryan C.**: Ryan is a freshman a Baxter. He is also a new addition to the Wireless Sensors project. He has lots of experience in HTML and CSS, he also is skilled in GUI design and graphics works. 
 
 ## Timeline
 Currently unavailable

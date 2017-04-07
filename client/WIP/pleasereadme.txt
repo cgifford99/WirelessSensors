@@ -1,0 +1,4 @@
+- Open the draft folder
+- Open load.html
+- Wait 3.5 seconds
+- Test the page

@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Time', 'var1', 'var2'],
+          ['10',  1800,      400],
+          ['20',  1170,      460],
+          ['30',  690,       1390],
+		  ['40',  660,       1120],
+		  ['50',  260,       1120],
+          ['60',  100,      540]
+        ]);
+
+        var options = {
+          title: 'Collected Data',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+		
+		
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+		
+      }
+	  
+    </script>
+  </head>
+  <body>
+    <div id="curve_chart" style="width: 900px; height: 500px"></div>
+  </body>
+</html>
+<html>
+<head>
+<style>
+p.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div {
+    background-color: lightblue;
+	border: 1px solid black;
+
+}
+</style>
+</head>
+<body>
+<h2><p class="sansserif"> Notes</p></h2>
+</body>
+<head>
+<div><p class="sansserif">This is where your notes go</p></div>
+
+</body>
+</html>
