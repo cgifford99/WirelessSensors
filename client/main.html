@@ -26,14 +26,19 @@
 					background: url(http://jimpunk.net/Loading/wp-content/uploads/loading45.gif) 50% 50% no-repeat #ede9df;
 			}
 
+			#scroll-tab-2 {
+				padding-top: 50px;
+			}
+
 			#experimentList {
 				float: left;
-				width: 300px;
+				width: 400px;
+				margin-left: 50px;
 			}
 
 
 			#line-graph {
-				width: 1000px;
+				width: 900px;
 				height: 500px;
 				float: left;
 			}
@@ -137,44 +142,15 @@
 	                                    </td>
 	                                    <td class="mdl-data-table__cell--non-numeric">{{experiment.name}}</td>
 	                        			<td>{{experiment.date}}</td>
-	                        			
+	                        			<td>{{experiment.time}}</td>
 	                        		</tr>
 	                         
 	                            </tbody>
 	                        </table>
 	                    </div>
-=======
-                        <table class="mdl-data-table mdl-js-data-table mdl-data-table--radio mdl-shadow--2dp">
-                            <thead>
-    		                    <tr>
-    		                        <th></th>
-                                    <th class="mdl-data-table__cell--non-numeric">Experiment Names</th>
-                                    <th>Date</th>
-                                    <th>Time</th>
-                                </tr>
-	                       </thead>
-	                       <tbody>
-                        		<tr ng-repeat="experiment in experiments">
-                        			<td>
-                                        <span class="mdl-list__item-secondary-action">
-                                        	<!-- <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-{experiment.experimentId}}">
-                                                <input type="radio" id="list-option-{{experiment.experimentId}}" class="mdl-radio__button" name="selectedExperiment"
-                                                       ng-change="loadExperiment()" ng-model="state.selectedExperiment" value="{{experiment.name}}" />
-                                            </label> -->
-                                            <input type="radio" id="list-option-{{experiment.experimentId}}" name="selectedExperiment"
-                                                       ng-change="loadExperiment(experiment)" ng-model="state.selectedExperiment" value="{{experiment.name}}" />
-                                        </span>
-                                    </td>
-                                    <td class="mdl-data-table__cell--non-numeric">{{experiment.name}}</td>
-                        			<td>{{experiment.date}}</td> <td>{{experiment.time}}</td>
-                        			
-                        		</tr>
-                         
-                            </tbody>
-                        </table>
->>>>>>> ab472baaaaca905692001cdf5ab85bdf754d2871
 
-                        <div id="line-graph"></div>
+
+                        <div id="line-graph" class="mdl-card mdl-shadow--2dp mdl-card--border mdl-data-table"></div>
                     </div>
 				</section>
 
