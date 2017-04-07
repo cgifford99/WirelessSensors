@@ -49,7 +49,7 @@ Currently there is no easy way to collect, store and share data from classroom s
 **Curtis**: 
 Curtis is a Sophomore at Baxter Academy for Technology and Science. He is also a new addition to the Wireless Sensors project. He has taken multiple classes based around electronics and computer programming. Curtis plans to concentrate on programming so that he be a productive member of the group.
 
-**Ryan C.**: Ryan is a freshman a Baxter. He is also a new addition to the Wireless Sensors project. He has lots of experience in HTML and CSS, he also is skilled in GUI design and graphics works. 
+**Ryan Cunningham**: Ryan is a freshman a Baxter. He is also a new addition to the Wireless Sensors project. He has lots of experience in HTML and CSS, he also is skilled in GUI design and graphics works. 
 
 ## Timeline
 Currently unavailable
