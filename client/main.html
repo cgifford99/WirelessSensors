@@ -132,12 +132,10 @@
 	                        		<tr ng-repeat="experiment in experiments">
 	                        			<td>
 	                                        <span class="mdl-list__item-secondary-action">
-	                                        	<!-- <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-{experiment.experimentId}}">
+	                                        	<label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-{{experiment.experimentId}}">
 	                                                <input type="radio" id="list-option-{{experiment.experimentId}}" class="mdl-radio__button" name="selectedExperiment"
-	                                                       ng-change="loadExperiment()" ng-model="state.selectedExperiment" value="{{experiment.name}}" />
-	                                            </label> -->
-	                                            <input type="radio" id="list-option-{{experiment.experimentId}}" name="selectedExperiment"
-	                                                       ng-change="loadExperiment(experiment)" ng-model="state.selectedExperiment" value="{{experiment.name}}" />
+	                                                       value="{{experiment.name}}" ng-change="loadExperiment(experiment)" ng-model="state.selectedExperiment"/>
+	                                            </label>
 	                                        </span>
 	                                    </td>
 	                                    <td class="mdl-data-table__cell--non-numeric">{{experiment.name}}</td>
