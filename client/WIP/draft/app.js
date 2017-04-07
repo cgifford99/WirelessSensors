@@ -16,17 +16,27 @@ app.controller('WirelessSensorsCtrl', ['$scope', '$http', '$sce', '$rootScope', 
 				experimentId : 27,
 				name : "Number 1",
 				date : "4/29/18"
-			},
+				time : "3:40 PM"
 
+			},
+			{
+				experimentId : 28,
+				name : "Number 2",
+				date : "4/29/18"
+				time : "4:00 PM"
+			},
 			{
 				experimentId : 29,
 				name : "Number 3",
 				date : "4/30/18"
+				time : "4:20 PM"
+
 			}
 		]
 
 
 		$scope.loadExperiment = function(experiment){
+		var experimentId = $scope.experiments[2].experimentId
 
 			var request = {
 				experimentId : experiment.experimentId
