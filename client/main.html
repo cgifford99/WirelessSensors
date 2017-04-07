@@ -143,6 +143,36 @@
 	                            </tbody>
 	                        </table>
 	                    </div>
+=======
+                        <table class="mdl-data-table mdl-js-data-table mdl-data-table--radio mdl-shadow--2dp">
+                            <thead>
+    		                    <tr>
+    		                        <th></th>
+                                    <th class="mdl-data-table__cell--non-numeric">Experiment Names</th>
+                                    <th>Date</th>
+                                    <th>Time</th>
+                                </tr>
+	                       </thead>
+	                       <tbody>
+                        		<tr ng-repeat="experiment in experiments">
+                        			<td>
+                                        <span class="mdl-list__item-secondary-action">
+                                        	<!-- <label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect" for="list-option-{experiment.experimentId}}">
+                                                <input type="radio" id="list-option-{{experiment.experimentId}}" class="mdl-radio__button" name="selectedExperiment"
+                                                       ng-change="loadExperiment()" ng-model="state.selectedExperiment" value="{{experiment.name}}" />
+                                            </label> -->
+                                            <input type="radio" id="list-option-{{experiment.experimentId}}" name="selectedExperiment"
+                                                       ng-change="loadExperiment(experiment)" ng-model="state.selectedExperiment" value="{{experiment.name}}" />
+                                        </span>
+                                    </td>
+                                    <td class="mdl-data-table__cell--non-numeric">{{experiment.name}}</td>
+                        			<td>{{experiment.date}}</td> <td>{{experiment.time}}</td>
+                        			
+                        		</tr>
+                         
+                            </tbody>
+                        </table>
+>>>>>>> ab472baaaaca905692001cdf5ab85bdf754d2871
 
                         <div id="line-graph"></div>
                     </div>
