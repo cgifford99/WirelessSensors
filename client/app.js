@@ -36,7 +36,6 @@ app.controller('WirelessSensorsCtrl', ['$scope', '$http', '$sce', '$rootScope', 
 
 
 		$scope.loadExperiment = function(experiment){
-		var experimentId = $scope.experiments[2].experimentId
 
 			var request = {
 				experimentId : experiment.experimentId
