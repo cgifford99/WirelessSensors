@@ -25,10 +25,10 @@
 				margin-left: 30px;
 			}
 
-			/*.loadLater {
-				display: none;
+			.loadLater {
+				display: none !important;
 			}
-*/
+
 
 			#line-graph {
 				width: 900px;
@@ -39,11 +39,14 @@
 		</style>
 		<script>
 			//Change the 5000 to a value which you need so that loading image shows till your page completely
-				// setTimeout(function(){
-				// 	$("#spinner").fadeOut(750, function(){
-				// 		$('.loadLater').fadeIn(750);
-				// 	}); 
-				// },3000);
+			setTimeout(function(){
+				$("#spinner").fadeOut(750, function(){
+					$( '.loadLater' ).each(function () {
+					    this.style.setProperty( 'display', 'block', 'important' );
+					});
+
+				}); 
+			},3000);
 		</script>
  
 		<meta charset="utf-8">
@@ -80,14 +83,6 @@
 	</head>
 	<body   ng-app="WirelessSensorsApp" ng-controller="WirelessSensorsCtrl">
 
-				<!-- <div id="spinner" class="mdl-card mdl-shadow--2dp mdl-card--border mdl-data-table" style="height: 200px">
-					<div style="padding-top: 98px;">
-                		<div id="p1" class="mdl-progress mdl-js-progress mdl-progress__indeterminate" style="margin: 0 auto"></div>
-                	</div>
-                </div>
-		 -->
-
-		
 
 		<!-- Simple header with scrollable tabs. -->
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -106,7 +101,13 @@
 				</div>
 			</header>
 
-			<main class="mdl-layout__content">
+			<div id="spinner" class="mdl-card mdl-shadow--2dp mdl-card--border mdl-data-table" style="height: 200px; margin: 80px auto">
+				<div style="padding-top: 98px;">
+	        		<div id="p1" class="mdl-progress mdl-js-progress mdl-progress__indeterminate" style="margin: 0 auto"></div>
+	        	</div>
+	        </div>
+
+			<main class="mdl-layout__content loadLater">
 
     				
 					<section class="mdl-layout__tab-panel" id="scroll-tab-1">
