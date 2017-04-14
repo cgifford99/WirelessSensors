@@ -34,6 +34,20 @@ app.controller('WirelessSensorsCtrl', ['$scope', '$http', '$sce', '$rootScope', 
 			}
 		]
 
+		$scope.updateExperimentList = function(){
+			$scope.experiments = [
+				{
+					experimentId : 27,
+					name : "meme lordz",
+					date : "4/20/21",
+					time : "4:20 PM"
+
+				}
+			];
+
+			upgradeMDL();
+		}
+
 
 		$scope.loadExperiment = function(experiment){
 
@@ -67,5 +81,9 @@ app.controller('WirelessSensorsCtrl', ['$scope', '$http', '$sce', '$rootScope', 
 
 	}
 ]);
+
+upgradeMDL = function(){
+	setInterval("componentHandler.upgradeDom();", 100);
+}
 
 
