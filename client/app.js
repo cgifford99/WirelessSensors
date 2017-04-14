@@ -28,7 +28,7 @@ app.controller('WirelessSensorsCtrl', ['$scope', '$http', '$sce', '$rootScope', 
 			{
 				experimentId : 29,
 				name : "Number 3",
-				date : "4/30/18",
+				date : "4/29/18",
 				time : "4:20 PM"
 
 			}
@@ -38,9 +38,9 @@ app.controller('WirelessSensorsCtrl', ['$scope', '$http', '$sce', '$rootScope', 
 			$scope.experiments = [
 				{
 					experimentId : 27,
-					name : "meme lordz",
-					date : "4/20/21",
-					time : "4:20 PM"
+					name : "New data",
+					date : "4/30/18",
+					time : "4:40 PM"
 
 				}
 			];
