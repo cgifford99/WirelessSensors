@@ -3,7 +3,7 @@ import database
 class AppModel:
 
 	def getExperimentList(model, request):
-		query = "SELECT * FROM users"
+		query = "SELECT * FROM experiments"
 		return database.get_results(query)		
 
 
