@@ -90,6 +90,7 @@ app.controller('WirelessSensorsCtrl', ['$scope', '$http', '$sce', '$rootScope', 
 		}
 
 
+		
 
 	}
 ]);
